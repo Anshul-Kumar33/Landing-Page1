@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+#main{
+    height: 100%;
+    width: 100%;
+    background-color: hsl(344, 27%, 51%);
+    display: flex;
+    
+}
+#part1{
+    height: 100%;
+    width: 26%;
+    /* background-color: red; */
+}
+#part2{
+    height: 100%;
+    width: 68%;
+    background-color: rgb(0, 179, 255);
+    background-image: url(Girl.jpg);
+    background-size: cover;
+    background-position: center;
+}
+#overlay{
+    height: 100%;
+    width: 100%;
+    background-color: hsla(344, 27%, 51%, 0.176);
+}
+#part3{
+    height: 100%;
+    width: 7%;
+    /* background-color: rgb(0, 255, 38); */
+}
+#text-div{
+    /* height: 200px; */
+    position: absolute;
+    width: 300px;
+    /* background-color: red; */
+    left: 5%;
+    top: 40%;
+    transform: translate(0, -50%);
+}
+#text-div>h1{
+    font-size: 70px;
+    font-family: monument;
+    font-weight: 800;
+    text-transform: uppercase;
+    line-height: 70px;
+    color: white;
+    letter-spacing: 8px;
+
+}
+#small-img-div{
+    height: 290px;
+    width: 250px;
+    /* background-color: red; */
+    background-image: url(Girl\ 2.jpg);
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    top: 70%;
+    right: 5%;
+    left: 269%;
+    transform: translate(0, -50%);
+}
+#overlay-in{
+    height: 100%;
+    width: 100%;
+    background-color: hsla(344, 27%, 51%, 0.176);
+}
+#vertical-text{
+    position: absolute;
+    /* width: 100%; */
+    /* background-color: red; */
+    right: -372%;
+    top: -3;
+    transform-origin: 0% 0%;
+}
+#vertical-text h1{
+            font-size: 60px;
+            font-weight: 800;
+            -webkit-text-stroke-width: 2px;
+            -webkit-text-stroke-color: #fff;
+            color: transparent;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            text-align: center;
+            letter-spacing: 9px;
+            transform: rotate(90deg);
+            text-transform: uppercase;           
+}
+#nav{
+    position: absolute;
+    width: 287px;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    left: 5%;
+    top: 5%;
+    justify-content: space-between;
+}
+#nav img{
+    height: 40px;
+}
+#nav h5{
+    font-size: 15px;
+    font-family: gilroy;
+    color: #fff;
+}
